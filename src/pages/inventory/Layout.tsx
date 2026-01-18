@@ -348,8 +348,9 @@ export default function Layout() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-24">
-      <div className="max-w-[1800px] mx-auto">
+   <div className="w-full h-full bg-gray-50 pb-24 overflow-x-auto">
+
+      <div className="max-w-450 mx-auto">
         <div className="flex pt-3 ">
           {/* ✅ Sidebar now just reflects the current route */}
           <div className="flex-1 px-6 ">

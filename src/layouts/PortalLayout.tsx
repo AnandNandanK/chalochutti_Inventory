@@ -14,7 +14,7 @@ export default function PortalLayout() {
       <div className="flex flex-col flex-1 h-full gap-4 overflow-hidden">
         
         {/* Page Content */}
-        <main className="flex-1 overflow-y-auto rounded-xl pr-2 custom-scrollbar">
+        <main className="flex-1 overflow-y-auto rounded-xl  custom-scrollbar ">
           <Outlet />
         </main>
       </div>
